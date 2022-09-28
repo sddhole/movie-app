@@ -4,6 +4,7 @@ import "./components/NavBar.css"
 import "./components/Banner"
 import Banner from "./components/Banner";
 import "./App.css";
+import MovieList from "./components/MovieList";
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
      <BrowserRouter>
       <Navbar/>
       <Banner></Banner>
+      <MovieList></MovieList>
      </BrowserRouter>
+     
    
   );
 }
