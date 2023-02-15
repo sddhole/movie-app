@@ -8,7 +8,7 @@ export class Navbar extends Component {
     return (
       <ul >
       
-        <li> <Link to='/'> <h1 style={{marginLeft:'0.7rem', fontSize:'2.2rem',color: 'hotpink'}}>Movies</h1> </Link></li>
+        <li> <Link to='/Movies'>  <button> style={{marginLeft:'0.7rem', fontSize:'2.2rem',color: 'hotpink'}}Movies</button></Link></li>
         <li><h3 style={{  marginTop :'0.7rem', color :'purple',fontSize:'2.8rem'}}> MovieFlex</h3></li>
         <li> <Link to='favourites'><h2 style={{ marginTop :'0.7rem',color: 'hotpink', marginRight:'0.7rem',fontSize:'2.2rem'}}>Favourites</h2></Link></li>
      </ul>
